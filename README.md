@@ -4,10 +4,19 @@ Trained CNN model for Genre classification on GTZAN dataset [CNN Model: https://
 ## Test trained CNN model
  In the `./weights/` you can find trained model weights and model architecture.
 
+## Overview
+For train CNN model of deep learning:
+
+1. Read the audios as melspectrograms, spliting then into 3s windows with 50% overlaping resulting in a dataset with the size 19000x129x128x1 (samples x time x frequency x channels)**.
+2. Shuffle the input and split into train and test (70%/30%)
+3. Train the CNN and validate using the validation dataset
+
+** In the case of the VGG, the channel need to have 3 channels
+
 ## Dependencies
- * [Keras](https://keras.io) or [PyTorch](http://pytorch.org)
- * numpy
- * librosa - for audio feature extraction
+ * [Keras](https://keras.io)
+ * [Numpy](http://www.numpy.org)
+ * [Librosa](https://librosa.github.io) - for audio feature extraction
  
  ## Accuracy
 
@@ -28,4 +37,4 @@ Trained CNN model for Genre classification on GTZAN dataset [CNN Model: https://
 ![alt text](./images/confusion_matrix_vgg16.png "Confusion Matrix of the VGG16 Model")
 
 ## License
-MIT License
+[MIT Licence](./LICENSE)
