@@ -23,8 +23,9 @@ Trained CNN model for Genre classification on GTZAN dataset [CNN Model: https://
     
     * Test accuracy:    0.8921
 
-## Confusion matrix
-
+## Accuracy, Loss and Confusion matrix
+![alt text](./images/accuracy_and_loss_vgg16.png "VGG16 Model")
+![alt text](./images/confusion_matrix_vgg16.png "Confusion Matrix of the VGG16 Model")
 
 ## License
 MIT License
