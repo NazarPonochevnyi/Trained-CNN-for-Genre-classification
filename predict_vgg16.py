@@ -31,7 +31,7 @@ def to_melspec(signals):
     return np.array(list(spec_array))
        
 def get_genre(path, debug=False):
-    model = load_model('genres_full_vgg16.h5')
+    model = load_model('./weights/genres_full_vgg16.h5')
     
     y = load_song(path)[0]
     predictions = []
@@ -55,4 +55,4 @@ def get_genre(path, debug=False):
     return genres[np.bincount(predictions).argmax()] # list(np.mean(pr, axis=0))
 
 if __name__ == '__main__':
-    print(get_genre('./../../../../../LSTM-Music-Genre-Classification/audios/reggae_music.mp3', True))
+    print(get_genre('./audios/classical_music.mp3', True))
