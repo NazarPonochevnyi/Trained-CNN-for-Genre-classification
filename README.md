@@ -37,7 +37,7 @@ For train CNN model of deep learning:
     
     * Test accuracy:    0.8921
 
-## Accuracy, Loss and Confusion matrix
+## Accuracy, Loss and Confusion matrix graphs
 ![alt text](./images/accuracy_and_loss_vgg16.png "VGG16 Model")
 ![alt text](./images/confusion_matrix_vgg16.png "Confusion Matrix of the VGG16 Model")
 
