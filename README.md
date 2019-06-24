@@ -3,6 +3,11 @@ Trained CNN model for Genre classification on GTZAN dataset [CNN Model: https://
 
 ## Test trained CNN model
  In the `./weights/` you can find trained model weights and model architecture.
+ 
+ For test this model, you can run `python3 predict_vgg16.py`.
+ 
+ Also, if you want to test your custom song or turn off debug messages, you can change code in the `get_genre()`'s function arguments.
+ For example, you can input your song path instead default `./audios/classical_music.mp3` path or toggle next boolean function's argument to turn off debug messages.
 
 ## Overview
 For train CNN model of deep learning:
