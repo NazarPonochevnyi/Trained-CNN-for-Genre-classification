@@ -3,6 +3,7 @@ Trained CNN model for Genre classification on GTZAN dataset [CNN Model: https://
 
 ## Test trained CNN model
  In the `./weights/` you can find trained model weights and model architecture.
+ Also, you can download .h5 file and place it manually to ./weights/ directory using this <a href="https://drive.google.com/file/d/1rJEw1N--pgX4w40yQfsuqYiD8lTR3Hz4/view?usp=sharing" target="_blank">link</a>.
  
  For test this trained model, you can run `python3 predict_vgg16.py`.
  
