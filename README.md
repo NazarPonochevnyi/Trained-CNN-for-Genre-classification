@@ -1,5 +1,11 @@
 # Trained CNN for Genre classification
-Trained CNN model for Genre classification on GTZAN dataset [CNN Model: https://github.com/Hguimaraes/gtzan.keras]
+
+![](https://img.shields.io/badge/-status:wip-5319e7.svg)
+![](https://img.shields.io/github/license/NazarPonochevnyi/Trained-CNN-for-Genre-classification)
+![](https://img.shields.io/github/languages/code-size/NazarPonochevnyi/Trained-CNN-for-Genre-classification)
+![](https://img.shields.io/github/last-commit/NazarPonochevnyi/Trained-CNN-for-Genre-classification)
+
+🎵 Trained CNN model for Genre classification on GTZAN dataset [CNN Model: https://github.com/Hguimaraes/gtzan.keras]
 
 ## Test trained CNN model
  In the `./weights/` you can find trained model weights and model architecture.
